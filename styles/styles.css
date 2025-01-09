@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav {
     width: 100%;
     padding: 0.75rem 1.5rem;
@@ -276,6 +280,31 @@ nav {
     .sub-img{
         display: none;
     }
+
+    .benefit-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit-card {
+        text-align: center;
+    }
+
+    .bright-section__cta {
+        display: block;
+    }
+
+    .bright-section__title {
+        font-size: 2rem;
+    }
+
+    .partner-section__logo-grid {
+        gap: 1rem;
+    }
+
+    .benefit-card__icon{
+        width: 70px;
+        height: 50px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -305,112 +334,108 @@ nav {
     bottom: -100px;
 }
 
-.wb-why-bright-section {
-    
+.bright-hr{
+    width: 95%;
+    border-radius: 50%;
+}
+
+.bright-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.bright-section__title-wrapper {
     text-align: center;
-    background-color: white;
+    margin-bottom: 4rem;
 }
 
-.wb-title {
+.bright-section__title {
     font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
+    color: #333;
 }
 
-.wb-subtitle {
-    font-size: 1.5rem;
+.bright-section__title-light {
+    font-weight: normal;
+}
+
+.benefit-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
     margin-bottom: 3rem;
-    color: #1a1a1a;
 }
 
-.wb-features {
+.benefit-card {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-bottom: 2.5rem;
-}
-
-.wb-feature {
-    display: flex;
     align-items: center;
-    gap: 1rem;
-    text-align: left;
+    text-align: center;
+    padding: 1rem;
 }
 
-.wb-feature-icon {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    object-fit: cover; /* Prevents stretching */
+.benefit-card__icon {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 1rem;
 }
 
-.wb-feature-text {
-    font-size: 1.25rem;
+.benefit-card__icon--bank {
+    color: #34D399;
+}
+
+.benefit-card__icon--payment {
+    color: #FCD34D;
+}
+
+.benefit-card__icon--security {
+    color: #34D399;
+}
+
+.benefit-card__text {
     color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
-.wb-cta-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #0A2816;
-    color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 40px;
-    font-size: 1.125rem;
-    font-weight: 500;
-    text-decoration: none;
+.bright-section__cta {
+    display: none;
     width: 100%;
-    max-width: 400px;
-    margin: 0 auto 3rem;
+    padding: 1rem;
+    background-color: #000;
+    color: white;
     border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 2rem 0;
 }
 
-.wb-arrow-circle {
-    background-color: white;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wb-arrow-icon {
-    width: 20px;
-    height: 20px;
-    color: #0A2816;
-}
-
-.wb-featured-section {
+.partner-section {
+    margin-top: 4rem;
     padding-top: 2rem;
     border-top: 1px solid #eee;
+    text-align: center;
 }
 
-.wb-featured-text {
-    font-size: 0.875rem;
-    color: #666;
+.partner-section__title {
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 1.5rem;
+    color: #888;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
 }
 
-.wb-logo-grid {
+.partner-section__logo-grid {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
-.wb-company-logo {
-    height: 20px;
-    object-fit: contain; /* Prevents stretching */
+.partner-section__logo {
+    color: #888;
+    font-weight: 300;
 }
-
-/* @media (min-width: 768px) {
-    .wb-why-bright-section {
-        display: none;
-    }
-} */
