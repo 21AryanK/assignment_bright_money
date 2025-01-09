@@ -320,6 +320,69 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .container {
+        max-width: 1200px;
+        padding: 64px 32px;
+    }
+
+    .title-container {
+        text-align: center;
+        max-width: none;
+        padding: 0;
+    }
+
+    .title-main, .title-sub {
+        display: inline;
+        font-size: 36px;
+    }
+
+    .title-main {
+        margin-bottom: 0;
+    }
+
+    .steps-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+
+    .step {
+        margin-bottom: 0;
+        padding: 32px;
+        background: #fff;
+        border-radius: 24px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .step-title {
+        font-size: 24px;
+    }
+
+    .step-description {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .illustration {
+        margin-top: 32px;
+        width: 100%;
+        height: 240px;
+    }
+
+    .get-started {
+        width: auto;
+        max-width: 320px;
+        margin: 64px auto 0;
+    }
+
+    .apply-button:hover {
+        color: #047857;
+    }
+
+    .get-started:hover {
+        background: #1F2937;
+    }
 }
 
 .pro-img{
@@ -438,4 +501,195 @@ nav {
 .partner-section__logo {
     color: #888;
     font-weight: 300;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    background-color: #ffffff;
+}
+
+.title-container {
+    text-align: left;
+    margin-bottom: 48px;
+    max-width: 480px;
+    margin: 0 auto 48px;
+    padding: 0 16px;
+}
+
+.title-main {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111827;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.title-sub {
+    font-size: 32px;
+    font-weight: normal;
+    color: #111827;
+    display: block;
+}
+
+.step {
+    margin-bottom: 48px;
+    padding: 0 16px;
+}
+
+.step-number {
+    color: #10B981;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.step-description {
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.apply-button {
+    display: inline-flex;
+    align-items: center;
+    color: #059669;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.apply-button::after {
+    content: "→";
+    margin-left: 8px;
+}
+
+.illustration {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    height: 192px;
+    width: 192px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Phone illustration */
+.phone-outline {
+    width: 96px;
+    height: 160px;
+    border: 2px solid #10B981;
+    border-radius: 12px;
+    position: relative;
+}
+
+.phone-check {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    color: #10B981;
+}
+
+/* Cards illustration */
+.cards-stack {
+    width: 160px;
+    position: relative;
+}
+
+.card {
+    height: 96px;
+    border-radius: 12px;
+    margin-bottom: -80px;
+}
+
+.card-1 { 
+    background: #D1D5DB; 
+    transform: rotate(-6deg); 
+}
+
+.card-2 { 
+    background: #FBBF24; 
+    transform: rotate(3deg); 
+}
+
+.card-3 { 
+    background: #10B981; 
+}
+
+/* Calendar illustration */
+.calendar {
+    width: 128px;
+    height: 128px;
+    background: #ECFDF5;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.calendar-header {
+    height: 24px;
+    background: #10B981;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.calendar-day {
+    width: 12px;
+    height: 12px;
+    background: #A7F3D0;
+    border-radius: 2px;
+}
+
+.coins {
+    display: flex;
+    gap: 4px;
+    margin-top: 16px;
+}
+
+.coin {
+    width: 24px;
+    height: 24px;
+    background: #FBBF24;
+    border-radius: 50%;
+}
+
+.get-started {
+    display: block;
+    width: 100%;
+    background: #111827;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 48px;
+    margin: 48px 16px;
+}
+
+.get-started::after {
+    content: "→";
+    margin-left: 8px;
 }
