@@ -1,0 +1,269 @@
+.testimonials h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.testimonials p {
+    color: #555;
+}
+
+/* .testimonials {
+    padding: 20px;
+    background-color: #f9f9f9;
+} */
+
+.testimonials-section {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials-wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.testimonial-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    margin: 0;
+}
+
+.testimonial-card strong {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+.faq {
+    padding: 20px;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.checkmark {
+    color: green;
+    font-size: 20px;
+}
+
+.crossmark {
+    color: red;
+    font-size: 20px;
+}h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+}
+
+.testimonials {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.testimonial-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    margin: 0;
+}
+
+.testimonial-card strong {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+.faq {
+    padding: 20px;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.checkmark {
+    color: green;
+    font-size: 20px;
+}
+
+.crossmark {
+    color: red;
+    font-size: 20px;
+}
+
+
+/* c section */
+
+.c-section {
+    padding: 4rem 2rem;
+    background-color: #e7f7e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.c-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.c-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.c-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.c-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+}
+
+.c-description {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 1rem 0 0;
+}
+
+.c-illustration {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .c-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .c-illustration {
+        max-width: 80%;
+    }
+}
+
+
+
+/* Disclamer section */
+
+
+.disclaimer-section{
+    padding: 2rem 2rem;
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.disclaimer-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.disclaimer-section p {
+    margin-bottom: 1rem;
+}
+
+.disclaimer-section ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.disclaimer-section ol li {
+    margin-bottom: 1rem;
+}
